@@ -16,7 +16,8 @@
         extend: {
           colors: {
             clifford: '#da373d',
-            
+            btncolor: '#FFDC26',
+            cardcolor: '#F9DF8A',
           }
         }
       }
@@ -35,13 +36,189 @@
 </head>
 <body class="font-family">
     <header>
+      
+        <nav class="lg:bg-[#FFF9F4] bg-[#f6eae0] mb-10 ">
+          <div class="max-w-6xl mx-auto">
+            <div class="navbar">
+              <div class="navbar-start">
+                <div class="dropdown">
+                  
+                  <ul
+                    tabindex="0"
+                    class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
+                    <li><a>Find a pet</a></li>
+                    <li>Breeds</li>
+                    <li><a>Contact us</a></li>
+                  </ul>
+                </div>
+                <img src="./c1-assets/logo-header.png" alt="">
+                <h3 class="text-2xl hidden lg:block">Browse<span class="text-yellow-400">4</span>Pets</h3>
+              </div>
+              <div class="navbar-center hidden lg:flex">
+                <ul class="menu menu-horizontal px-1">
+                  <li><a class="text-gray-600">Home</a></li>
+                  <li><a class="text-gray-600">Services</a></li>
+                  <li><a class="text-gray-600">Blog</a></li>
+                  <li><a class="text-gray-600">Contact Us</a></li>
+                </ul>
+              </div>
+              <div class="navbar-end space-x-2">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-5 hidden lg:block">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M14.857 17.082a23.848 23.848 0 0 0 5.454-1.31A8.967 8.967 0 0 1 18 9.75V9A6 6 0 0 0 6 9v.75a8.967 8.967 0 0 1-2.312 6.022c1.733.64 3.56 1.085 5.455 1.31m5.714 0a24.255 24.255 0 0 1-5.714 0m5.714 0a3 3 0 1 1-5.714 0" />
+                </svg>
+                
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-5 hidden lg:block">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="m21 21-5.197-5.197m0 0A7.5 7.5 0 1 0 5.196 5.196a7.5 7.5 0 0 0 10.607 10.607Z" />
+                </svg>
+                
+                <button class="border border-yellow-400 py-1 px-2 rounded-md hidden lg:block">Login</button>
+                <button><a class="py-2 px-4 rounded-md bg-btncolor hidden lg:inline-block " >Register</a></button>
+              </div>
 
-    </header>
+              <!-- here -->
+              <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="h-5 w-5"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor">
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M4 6h16M4 12h8m-8 6h16" />
+                </svg>
+              </div>
+               <!--  -->
+            </div>
+          </div>
+      </nav>
+      <!-- end navbar -->
+
+      <!-- banner -->
+
+      <section class=" max-w-6xl  mx-auto mb-24 hidden lg:block">
+        <div class="  lg:h-screen h-auto w-auto bg-[url('./c1-assets/cat-big.jpg')] text-left bg-no-repeat bg-cover bg-bottom ">
+            <div class=" w-[20rem] lg:w-[100%] h-[18rem] lg:h-[100%]">
+              <h3 class="lg:text-6xl text-xl adlam-display ">Pamper Your Pet, <br> Because They Deserve <br> the Bes</h3>
+            <p class="lg:text-xl text-[10px] text-gray-500 lg:w-[650px] lg:mt-5 ">Discover a world of treats, toys, and essentials handpicked for your furry friends. Shop now and make tails wag with joy!</p>
+            <button class="bg-btncolor py-2 px-4 rounded-md lg:mt-5">Find a pet</button>
+          </div>
+         </div>
+         
+        </div>
+         </div>
+         <!-- end -->
+      </section>
+      <section>
+        <!-- extra test -->
+        <div class="lg:hidden md:hidden">
+          <div class=" w-[20rem] lg:w-[100%] h-[18rem] lg:h-[100%] px-5">
+            <h3 class="text-2xl adlam-display ">Pamper Your Pet, <br> Because They Deserve <br> the Bes</h3>
+          <p class="text-[12px] text-gray-500 lg:w-[650px] mt-5  ">Discover a world of treats, toys, and essentials handpicked for your furry friends. Shop now and make tails wag with joy!</p>
+          <button class="bg-btncolor py-2 px-4 rounded-md mt-5 -mt-100px">Find a pet</button>
+          <div class="">
+            <img src="./c1-assets/cat-big(edit).png" alt="" class="ml-20">
+          </div>
+      </section>
+</header>
 
     <!-- end header -->
 
-    <main>
-      <h1>This is auto github push</h1>
+    <main class="max-w-6xl mx-auto">
+      <section class="mt-24">
+        <h3 class="text-4xl adlam-display mb-10">Browse By Categories</h3>
+        <div class="grid lg:grid-cols-6 grid-cols-2 gap-5 justify-center items-center mb-10 p-5 lg:p-0">
+          <div class="bg-cardcolor text-center py-9 px-11 rounded-lg">
+            <div class="avatar">
+              <div class="bg-white p-3 rounded-full">
+              <div class="w-10 rounded-full">
+                <img src="./c1-assets/dog-cartoon.png" />
+              </div>
+            </div>
+            </div>
+            <h4 class="text-xl adlam-display">Dog</h4>
+            <p>3 items</p>
+          </div>
+
+
+          <div class="bg-cardcolor text-center py-9 px-11 rounded-lg">
+            <div class="avatar">
+              <div class="bg-white p-3 rounded-full">
+              <div class="w-10 rounded-full">
+                <img src="./c1-assets/dog-cartoon.png" />
+              </div>
+            </div>
+            </div>
+            <h4 class="text-xl adlam-display">Dog</h4>
+            <p>3 items</p>
+          </div>
+
+          
+          <div class="bg-cardcolor text-center py-9 px-11 rounded-lg">
+            <div class="avatar">
+              <div class="bg-white p-3 rounded-full">
+              <div class="w-10 rounded-full">
+                <img src="./c1-assets/dog-cartoon.png" />
+              </div>
+            </div>
+            </div>
+            <h4 class="text-xl adlam-display">Dog</h4>
+            <p>3 items</p>
+          </div>
+          <div>
+            <div class="bg-cardcolor text-center py-9 px-11 rounded-lg">
+              <div class="avatar">
+                <div class="bg-white p-3 rounded-full">
+                <div class="w-10 rounded-full">
+                  <img src="./c1-assets/dog-cartoon.png" />
+                </div>
+              </div>
+              </div>
+              <h4 class="text-xl adlam-display">Dog</h4>
+              <p>3 items</p>
+            </div>
+          </div>
+          <div class="bg-cardcolor text-center py-9 px-11 rounded-lg">
+            <div class="avatar">
+              <div class="bg-white p-3 rounded-full">
+              <div class="w-10 rounded-full">
+                <img src="./c1-assets/dog-cartoon.png" />
+              </div>
+            </div>
+            </div>
+            <h4 class="text-xl adlam-display">Dog</h4>
+            <p>3 items</p>
+          </div>
+          <div class="bg-cardcolor text-center py-9 px-11 rounded-lg">
+            <div class="avatar">
+              <div class="bg-white p-3 rounded-full">
+              <div class="w-10 rounded-full">
+                <img src="./c1-assets/dog-cartoon.png" />
+              </div>
+            </div>
+            </div>
+            <h4 class="text-xl adlam-display">Dog</h4>
+            <p>3 items</p>
+          </div>
+        </div>
+      </section>
+      <!-- end -->
+
+      <section>
+        <h3 class="text-4xl adlam-display mb-10">Trending Pet Products</h3>
+        <div class="">
+          <div class="bg-cardcolor space-y-5">
+            <h3 class="text-2xl adlam-display">T-shirt for dogs</h3>
+            <p>discover a world of treats, <br> toys and essential handpicked for</p>
+            <button class="bg-white py-2 px-3 rounded-md">Shop now</button>
+            <div>
+              <img src="./c1-assets/cute-pet-small.png" alt="" class="w-36 pl-20">
+            </div>
+          </div>
+        </div>
+      </section>
     </main>
 
     <!-- end main -->
